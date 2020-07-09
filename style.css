@@ -1,0 +1,223 @@
+#cars {
+  background-color: tomato;
+  padding:  2px;
+  color:white;
+}
+.heading{
+    margin-top:15px;
+}
+h1{
+    color:crimson;
+}   
+.sate-top-margin{
+    margin-top:30px;
+} 
+.dis-top-margin{
+    margin-top: 40px;
+}
+.input{
+    padding:10px;
+    width:200px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+}
+.input-1{
+    padding:10px;
+    width:200px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+}
+   
+.btn{
+    height: 25px;
+    margin-left:10px;
+    border-radius: 5px;
+}
+.btn-1{
+    height: 23px;
+    margin-left:10px;
+    border-radius:5px;
+} 
+.result{
+    color:green;
+    font-size:100%;
+} 
+.res{
+    color:green;
+    font-size:100%;
+}
+.death{
+    color:red;
+    font-size:100%;   
+}    
+.recover{
+    color:green;
+    font-size: 100%;
+}
+
+body{
+    background-color:rgba(255, 99, 71, 0.5);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: white;
+}
+.state{
+    color:purple;
+}
+.state-1{
+    color:purple;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.table-container{
+    margin-top: 15px;
+}
+.result-1{
+    color:green;
+    font-size:100%;
+} 
+.res-1{
+    color:green;
+    font-size:100%;
+}
+.death-1{
+    color:red;
+    font-size:100%;   
+}    
+.recover-1{
+    color:green;
+    font-size: 100%;
+}
+.input-field{
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.link-bottom{
+    margin-top: 15px;
+    display: flex;
+    direction: row;
+    margin-left: 10px;
+}
+
+.dis-drop{
+   display: flex;
+   direction: row;
+   align-items: center;
+   justify-content: center;
+
+}
+#select-margin{
+    margin-left: 5px;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.input {
+  border: 1px solid tomato;
+  background-color: tomato;
+  color:white;
+  padding: 10px;
+  font-size: 16px;
+
+}
+::placeholder { 
+  color: white;
+  opacity: .7; 
+}
+
+.input[type=text] {
+  background-color: tomato;
+  width: 100%;
+}
+
+.input[type=submit] {
+  background-color: DodgerBlue;
+  color: tomato;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: tomato; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: dodgerblue; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
